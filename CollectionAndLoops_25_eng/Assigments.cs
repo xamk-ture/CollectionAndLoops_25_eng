@@ -81,17 +81,8 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static double CalculateAverage(List<int> numbers)
         {
-            int sum = 0;
-            int count = 0;
-
-            foreach (int num in numbers)
-            {
-                sum += num;
-                count += 1;
-            }
-
-            double average = (double)sum / count;
-            return average;
+            //Remove exeption when you start to do this function
+            throw new NotImplementedException("Calculate average number of given list");
         }
 
         /*
@@ -106,6 +97,7 @@ namespace CollectionsAndLoops_25_eng
         */
         public static void FindMinAndMax(List<int> numbers, out int min, out int max)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Empty list -> (0,0). Otherwise initialize with the first value and update with comparisons.");
         }
 
@@ -124,6 +116,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static List<int> FindAboveThreshold(List<int> numbers, int threshold)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Build a new list containing only values greater than threshold.");
         }
 
@@ -142,6 +135,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static void RemoveNumberFromList(List<int> numbers, int number)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Use List.Remove and print whether it succeeded or not.");
         }
 
@@ -162,6 +156,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static List<int> GenerateRandomNumbersList(int size, int min, int max)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("If size > 0, generate values [min, max] and add them to list.");
         }
 
@@ -190,6 +185,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static Dictionary<string, int> CollectDataToDictionary(int size)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Collect 'size' unique (name, age) pairs into a dictionary and return it.");
         }
 
@@ -203,6 +199,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static void PrintDictionary(Dictionary<string, int> dict)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Use foreach over KeyValuePair and print lines.");
         }
 
@@ -215,6 +212,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static void FindValueByKey(Dictionary<string, int> dict, string key)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Use TryGetValue and print the found value or not found message.");
         }
 
@@ -227,6 +225,7 @@ namespace CollectionsAndLoops_25_eng
         /// </summary>
         public static void RemoveKeyFromDictionary(Dictionary<string, int> dict, string key)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Use Remove and print whether it succeeded.");
         }
 
@@ -243,6 +242,7 @@ namespace CollectionsAndLoops_25_eng
         */
         public static int[] CollectNumbersToArray(int size)
         {
+            //Remove exeption when you start to do this function
             throw new NotImplementedException("Create int[] of size 'size', fill with for-loop using ReadInt, and return.");
         }
 
@@ -272,7 +272,7 @@ namespace CollectionsAndLoops_25_eng
             while (true)
             {
                 if (!string.IsNullOrEmpty(prompt))
-                    Console.Write(prompt);
+                    Console.Write(prompt + "\n");
 
                 string input = Console.ReadLine();
 
